@@ -1,4 +1,6 @@
 # 微信登录调用汇总
+
+-------
 ## 扫码登录
 #### [扫码从微信公共号登录pc](./扫码从微信公共号登录pc)
 - 打开微信公共号 （https://mp.weixin.qq.com/）
@@ -8,7 +10,6 @@
 - 获取wx qrcode
 - 公共号内回调
 [官方文档](https://developers.weixin.qq.com/doc/offiaccount/Account_Management/Generating_a_Parametric_QR_Code.html)
--------
 
 #### [扫码直接登录](./扫码直接登录)
 - 打开开放平台网站(https://open.weixin.qq.com)
@@ -18,6 +19,7 @@
 - 通过 code 获取appid和appsecret
 - 通过 access_token 获取用户基本数据。
 [官方文档](https://developers.weixin.qq.com/doc/oplatform/Website_App/WeChat_Login/Wechat_Login.html)
+
 -------
 
 ## 进入登录
